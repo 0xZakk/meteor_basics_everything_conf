@@ -1,13 +1,14 @@
+===
 # What is Meteor.js?
 
 #### Zakk Fleischmann
 
 
-
+===
 # Introduction to Meteor
 - http://mystical_mountain_fairies_of_vienna.meteor.com/a
 
-
+===
 # What is Meteor?
 - Full stack framework (sort of like Rails but for JS)
 - Single language run on both the client and the server
@@ -18,6 +19,7 @@ Credit: Josh Owen
 
 [demo to do list application]
 
+===
 # Reactivity
 
 - In other JS frameworks, we would have to make ajax calls or use sprockets to keep our data up to date
@@ -45,7 +47,7 @@ Template.tasksList.helpers({
   }
 });
 ```
-
+===
 # Meteor Collections
 
 - Special data type that stores data on the server and synchronizes it on the browser in real time
@@ -55,6 +57,7 @@ Tasks = new Mongo.Collection('task');
 ```
 - Exists on the server (database), with a subset of the data existing on the client in browser memory
 
+===
 # Publications and Subscriptions
 
 - Publishing and Subscribing is how we coordinate what data gets saved in the client's memory (we 'publish' data and then 'subscribe' to it)
@@ -77,7 +80,7 @@ Subscribe:
 ```
   Meteor.subscribe("tasks");
 ```
-
+===
 # Why does any of this matter?
 ## Rails
 - Think through Rails process: like a waiter at a restaurant
